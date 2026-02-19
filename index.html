@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Telegram Archive</title>
+<link rel="stylesheet" href="/style.css">
+<link rel="manifest" href="/manifest.json">
+<meta name="theme-color" content="#0e1621">
+</head>
+<body>
+
+<div class="app">
+  <div class="sidebar">
+    <div class="search"><input id="chatSearch" placeholder="Search chats"></div>
+    <div id="chatList"></div>
+    <div id="mediaSidebar"></div>
+  </div>
+
+  <div class="chat-area">
+    <div id="topbar" class="topbar">Select Chat</div>
+    <div id="chat" class="chat"></div>
+  </div>
+</div>
+
+<!-- Media viewer modal -->
+<div id="mediaViewer"></div>
+<div id="mediaGallery" class="gallery"></div>
+
+<script src="/app.js"></script>
+</body>
+</html>
